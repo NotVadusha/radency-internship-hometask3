@@ -1,6 +1,6 @@
 import { Response } from "express";
 import { StatusCodes } from "http-status-codes";
-import { IError } from "../Interfaces/IError";
+import { IError } from "../interfaces/IError";
 
 export class HttpError extends Error {
   public readonly name: string;

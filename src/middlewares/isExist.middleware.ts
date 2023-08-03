@@ -1,7 +1,7 @@
 import { Response, NextFunction } from "express";
 import notesService from "../repositories/notes.repository";
 import { HttpError } from "../helpers/errors";
-import { TypedRequestParams } from "../Interfaces/IRequest";
+import { TypedRequestParams } from "../interfaces/IRequest";
 import { StatusCodes } from "http-status-codes";
 
 const isExistMiddleware = async (
